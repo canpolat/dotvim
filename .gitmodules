@@ -10,3 +10,9 @@
 [submodule "bundle/bufferline"]
 	path = bundle/bufferline
 	url = https://github.com/bling/vim-bufferline
+[submodule "bundle/grep"]
+	path = bundle/grep
+	url = https://github.com/yegappan/grep.git
+[submodule "bundle/tasklist"]
+	path = bundle/tasklist
+	url = https://github.com/vim-scripts/TaskList.vim.git
