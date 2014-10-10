@@ -26,6 +26,8 @@ set incsearch
 set number
 syntax on
 
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+
 " Comment settings
 :highlight Comment ctermfg=Green guifg=Green
 
