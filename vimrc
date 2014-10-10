@@ -1,6 +1,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+execute pathogen#infect()
+
 " Word Wrap Settings
 set wrap
 set linebreak
