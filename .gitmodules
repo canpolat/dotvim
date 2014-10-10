@@ -7,3 +7,6 @@
 [submodule "syntastic"]
 	path = syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/bufferline"]
+	path = bundle/bufferline
+	url = https://github.com/bling/vim-bufferline
