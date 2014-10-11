@@ -1,0 +1,6 @@
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+
+set completeopt=menuone,longest,preview
+
+match ExtraWhitespace /\s\+$/

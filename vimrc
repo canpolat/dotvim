@@ -34,14 +34,17 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<
 
 " Highlight trailing whitespaces
 :highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
 
 :let mapleader = ","
 
 " Task List
 map ,td <Plug>TaskList
 
-# Virtualenv
+" NERDTree
+let NERDTreeShowHidden=1
+au VimEnter *  NERDTree
+
+" Virtualenv
 " Add the virtualenv's site-packages to vim path
 py << EOF
 import os.path
