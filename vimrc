@@ -29,6 +29,10 @@ filetype on
 
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 
+" Clipboard mappings
+vnoremap <C-c> "+y
+"vnoremap <C-v> "+p
+
 " Comment settings
 :highlight Comment ctermfg=Green guifg=Green
 
@@ -38,10 +42,12 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<
 :let mapleader = ","
 
 " Task List
-map ,td <Plug>TaskList
+nmap ,td <Plug>TaskList
+
+" Keep the split window when closing a buffer
+nmap ,d :b#<bar>bd#<CR>
 
 " NERDTree
-let NERDTreeShowHidden=1
 au VimEnter *  NERDTree
 
 " Virtualenv
