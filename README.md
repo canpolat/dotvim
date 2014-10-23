@@ -15,7 +15,7 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
 **Adding a new plugin:**
 
-    git add submodule https://github.com/bling/vim-airline bundle/vim-airline
+    git submodule add https://github.com/bling/vim-airline bundle/vim-airline
 
 **Remomving a plugin:**
 

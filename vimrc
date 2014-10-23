@@ -53,6 +53,8 @@ nmap ,d :b#<bar>bd#<CR>
 
 " Airline
 set laststatus=2
+au VimEnter * exec 'AirlineTheme monochrome'
+
 
 " Virtualenv
 " Add the virtualenv's site-packages to vim path
