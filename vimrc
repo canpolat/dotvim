@@ -23,7 +23,7 @@ set smartcase
 set incsearch
 
 " Misc Settings
-set number
+"set number
 syntax on
 filetype on
 
@@ -37,6 +37,7 @@ vnoremap <C-c> "+y
 :highlight Comment ctermfg=Green guifg=Green
 
 " Highlight trailing whitespaces
+:autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 :highlight ExtraWhitespace ctermbg=red guibg=red
 
 :let mapleader = ","
@@ -48,7 +49,10 @@ nmap ,td <Plug>TaskList
 nmap ,d :b#<bar>bd#<CR>
 
 " NERDTree
-au VimEnter *  NERDTree
+" au VimEnter *  NERDTree
+
+" Airline
+set laststatus=2
 
 " Virtualenv
 " Add the virtualenv's site-packages to vim path
