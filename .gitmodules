@@ -22,3 +22,12 @@
 [submodule "bundle/vim-bufferline"]
 	path = bundle/vim-bufferline
 	url = https://github.com/bling/vim-bufferline
+[submodule "bundle/misc"]
+	path = bundle/misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "bundle/notes"]
+	path = bundle/notes
+	url = https://github.com/xolox/vim-notes.git
+[submodule "bundle/shell"]
+	path = bundle/shell
+	url = https://github.com/xolox/vim-shell.git

@@ -55,6 +55,11 @@ nmap ,d :b#<bar>bd#<CR>
 set laststatus=2
 au VimEnter * exec 'AirlineTheme monochrome'
 
+" Notes
+:let g:notes_directories = ['~/Sync/Dropbox/vimnotes']
+:let g:notes_suffix = '.txt'
+:let g:notes_title_sync = 'rename_file'
+
 
 " Virtualenv
 " Add the virtualenv's site-packages to vim path
