@@ -1,4 +1,4 @@
-Installation:
+#Installation
 
     git clone https://github.com/canpolat/dotvim.git ~/.vim
     cd ~/.vim
@@ -9,8 +9,12 @@ Installation:
 
     git submodule add https://github.com/bling/vim-airline bundle/vim-airline
 
-**Remomving a plugin:**
+**Removing a plugin:**
 
     git submodule deinit bundle/module_name
     git rm bundle/module_name
 
+#Branches
+
+* `master`: Without notes plugin
+* `with_notes`: With notes plugin writing notes to the Dropbox folder
