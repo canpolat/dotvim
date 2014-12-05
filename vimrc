@@ -3,6 +3,9 @@ syntax on
 filetype plugin indent on
 call pathogen#helptags()
 
+" Backspace
+set backspace=indent,eol,start
+
 " Word Wrap Settings
 set wrap
 set linebreak
@@ -42,19 +45,12 @@ vnoremap <C-c> "+y
 
 :let mapleader = ","
 
-" Task List
-nmap ,td <Plug>TaskList
-
-" Keep the split window when closing a buffer
-nmap ,d :b#<bar>bd#<CR>
-
 " NERDTree
 " au VimEnter *  NERDTree
 
 " Airline
 set laststatus=2
 au VimEnter * exec 'AirlineTheme monochrome'
-
 
 " Virtualenv
 " Add the virtualenv's site-packages to vim path
@@ -68,4 +64,3 @@ if 'VIRTUAL_ENV' in os.environ:
     activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
     execfile(activate_this, dict(__file__=activate_this))
 EOF
-
